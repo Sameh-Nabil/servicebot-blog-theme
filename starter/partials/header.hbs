@@ -1,0 +1,27 @@
+<header class="site-header">
+    <div class="container">
+      <div class="float-left">
+        {{#if @blog.logo}}
+          <h1 class="site-title"><a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}"></a></h1>
+        {{else}}
+          <h1 class="site-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+        {{/if}}
+      </div>
+
+      <div class="float-left">
+        {{navigation}}
+      </div>
+        
+      <div class="float-right">
+          <ul class="right-menu">
+            <li>
+              {{#if @labs.subscribers}}
+                <a class="subscribe" href="{{@blog.url}}/subscribe/">Subscribe</a>
+              {{else}}
+                <a class="subscribe" href="{{@blog.url}}/rss/" target="_blank">Subscribe</a>
+              {{/if}}
+            </li>
+          </ul>
+      </div>
+    </div>
+</header>
