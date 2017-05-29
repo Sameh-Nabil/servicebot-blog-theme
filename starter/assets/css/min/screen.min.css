@@ -894,7 +894,8 @@ dl {
 }
 
 ul {
-  list-style: square inside;
+    list-style: disc;
+    padding-left: 40px;
 }
 
 ol {
