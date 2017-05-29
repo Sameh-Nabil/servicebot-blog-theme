@@ -2,7 +2,6 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-    color: white;
 }
 
 body {
@@ -1667,6 +1666,8 @@ h1:hover a, h2:hover a, h3:hover a, h4:hover a, h5:hover a, h6:hover a {
 .post-comments {
   margin-bottom: 4rem;
 }
+
+
 @media screen and (min-width: 480px) {
   .post-comments {
     margin-bottom: 6rem;
